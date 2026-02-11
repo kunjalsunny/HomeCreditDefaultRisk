@@ -26,9 +26,15 @@ list_of_files = [
     f"{project_name}/src/pipelines/training_pipeline.py",
     f"{project_name}/src/pipelines/batch_prediction_pipeline.py",
 
-    f"{project_name}/configs/config.yaml",
-    f"{project_name}/config/schema.yaml",
-    f"{project_name}/config/params.yaml",
+    "configs/config.yaml",
+    "configs/schema.yaml",
+    "configs/params.yaml",
+
+    ".github/workflows/ci.yaml",
+    ".github/workflows/cd.yaml",
+
+    "data/external/cd.yaml",
+    "/artifacts/",
     
 
 ]
